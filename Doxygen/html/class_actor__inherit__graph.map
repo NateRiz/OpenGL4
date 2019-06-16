@@ -1,0 +1,5 @@
+<map id="Actor" name="Actor">
+<area shape="rect" id="node2" href="$class_mesh.html" title="{Mesh\n|&#45; VAO\l&#45; vertexCount\l&#45; mShader\l|+ Mesh()\l+ getVao()\l+ getVertexCount()\l+ getShader()\l}" alt="" coords="5,145,139,296"/>
+<area shape="rect" id="node3" href="$class_object3d.html" title="{Object3d\n|&#45; mTransform\l|+ Object3d()\l+ Tick()\l+ GetTransform()\l}" alt="" coords="163,167,285,274"/>
+<area shape="rect" id="node4" href="$class_camera.html" title="{Camera\n|+ VIEW_DISTANCE\l+ mCurrentMouseX\l+ mCurrentMouseY\l&#45; yaw\l&#45; pitch\l&#45; mLastMouseX\l&#45; mLastMouseY\l|+ Camera()\l+ Tick()\l+ ProcessMouseMovement()\l+ ProcessInput()\l+ ProcessMouseMovement()\l&#45; MouseCallback()\l}" alt="" coords="129,344,319,583"/>
+</map>

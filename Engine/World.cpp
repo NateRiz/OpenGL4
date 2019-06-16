@@ -3,12 +3,13 @@
 //
 
 #include "World.h"
-
-
+#include "Actor.h"
+#include "MeshHandler.h"
+#include "Renderer.h"
 
 void World::MainLoop()
 {
-    while (!glfwWindowShouldClose(mWindowManager.getWindow()))
+    while (!glfwWindowShouldClose(mWindowManager.GetWindow()))
     {
         Tick();
     }
@@ -22,8 +23,8 @@ void World::Tick()
 
     for (auto actor : mActors) { actor->Tick(deltaTime); }
 
-    mRenderer.prepare();
-    for (auto mesh: mMeshHandler.getMeshes()){ mRenderer.render(mesh); }
+    mRenderer.Prepare();
+    for (auto mesh: mMeshHandler->getMeshes()){ mRenderer.Render(&mesh); }
 
     mWindowManager.Update();
 
@@ -35,4 +36,20 @@ void World::Tick()
 void World::CreateActor(Actor *actor)
 {
     mActors.push_back(actor);
+}
+
+World::World()
+{
+    mMeshHandler = new MeshHandler();
+}
+
+World::~World()
+{
+    delete mMeshHandler;
+}
+
+World &World::GetWorld()
+{
+    static World instance;
+    return instance;
 }

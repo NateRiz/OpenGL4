@@ -15,9 +15,9 @@ public:
 
 
 public:
-    unsigned int getVao() const;
-    unsigned int getVertexCount() const;
-    Shader getShader() const;
+    unsigned int getVao() const; /** Returns the stored vao type for this mesh. */
+    unsigned int getVertexCount() const; /** Returns the number of vertices in the mesh. */
+    Shader getShader() const; /** Returns the shader currently bound to this mesh. */
 
 private:
     unsigned int VAO;

@@ -3,12 +3,17 @@
 //
 
 #include "Actor.h"
-#include "World.h"
 
 Actor::Actor() {
     World::GetWorld().CreateActor(this);
 }
 
-void Actor::Tick(double deltaTime) {
+void Actor::Tick(double deltaTime)
+{
 
+}
+
+void Actor::AddChild(Actor actor)
+{
+    mChildren.push_back(actor);
 }

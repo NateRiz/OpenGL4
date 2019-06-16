@@ -1,0 +1,5 @@
+<map id="World" name="World">
+<area shape="rect" id="node2" href="$class_renderer.html" title="{Renderer\n||+ Renderer()\l+ ~Renderer()\l+ Prepare()\l+ Render()\l}" alt="" coords="5,20,108,141"/>
+<area shape="rect" id="node3" href="$class_window_manager.html" title="{WindowManager\n|&#45; mWindow\l|+ WindowManager()\l+ ~WindowManager()\l+ GetWindow()\l+ Update()\l&#45; framebuffer_size_callback()\l}" alt="" coords="132,13,323,149"/>
+<area shape="rect" id="node4" href="$class_mesh_handler.html" title="{MeshHandler\n|&#45; mVAOs\l&#45; mVBOs\l&#45; mMeshes\l|+ MeshHandler()\l+ ~MeshHandler()\l+ CreateMesh()\l+ getMeshes()\l}" alt="" coords="347,5,473,156"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Camera" name="Camera">
+<area shape="rect" id="node2" href="$class_object3d.html" title="{Object3d\n||+ Object3d()\l+ Tick()\l+ GetTransform()\l}" alt="" coords="51,277,174,384"/>
+<area shape="rect" id="node3" href="$class_actor.html" title="{Actor\n||+ Actor()\l+ Tick()\l}" alt="" coords="5,64,79,156"/>
+<area shape="rect" id="node4" href="$class_transform.html" title="{Transform\n|&#45; mLocationRelative\l&#45; mScale\l&#45; mRotation\l|+ Transform()\l+ GetLocationRelative()\l+ GetLocationAbsolute()\l+ GetRotation()\l+ GetScale()\l+ Translate()\l+ Rotate()\l+ Scale()\l}" alt="" coords="103,5,266,215"/>
+</map>

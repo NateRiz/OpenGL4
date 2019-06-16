@@ -41,7 +41,7 @@ public:
         glfwTerminate();
     }
 
-    GLFWwindow *getWindow() const
+    GLFWwindow *GetWindow() const
     {
         return mWindow;
     }

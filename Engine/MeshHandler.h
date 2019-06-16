@@ -2,7 +2,6 @@
 #define VOXEL4_MESHHANDLER_H
 
 #include <vector>
-
 #include "Mesh.h"
 
 enum class VAOType {
@@ -21,10 +20,9 @@ public:
     const std::vector<Mesh> &getMeshes() const;
 
 private:
-    std::vector<unsigned int> mVAOs{}; /// Index corresponds to the VAOType
-    std::vector<unsigned int> mVBOs{}; /// Meshes that currently exist
-    std::vector<Mesh> mMeshes{};
+    std::vector<unsigned int> mVAOs{}; /** All created VAOs. The index corresponds to the enum: VAOType. */
+    std::vector<unsigned int> mVBOs{}; /** All vbos of meshes that currently exist. */
+    std::vector<Mesh> mMeshes{}; /** All existing meshes.*/
 };
-
 
 #endif //VOXEL4_MESHHANDLER_H

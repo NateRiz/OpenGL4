@@ -1,0 +1,4 @@
+<map id="Object3d" name="Object3d">
+<area shape="rect" id="node3" href="$class_camera.html" title="{Camera\n|+ VIEW_DISTANCE\l+ mCurrentMouseX\l+ mCurrentMouseY\l&#45; yaw\l&#45; pitch\l&#45; mLastMouseX\l&#45; mLastMouseY\l|+ Camera()\l+ Tick()\l+ ProcessMouseMovement()\l+ ProcessInput()\l+ ProcessMouseMovement()\l&#45; MouseCallback()\l}" alt="" coords="5,300,196,539"/>
+<area shape="rect" id="node2" href="$class_actor.html" title="{Actor\n||+ Actor()\l+ Tick()\l}" alt="" coords="64,5,137,97"/>
+</map>
